@@ -1,0 +1,32 @@
+# Application Framework & UI
+streamlit
+flask
+Django
+
+
+# LLM & Agent Client
+groq
+
+# Database & Vector Store
+supabase
+chromadb
+
+# Embeddings & ML
+sentence-transformers
+torch
+torchvision
+
+# Document Parsing
+pypdf
+
+# Web Search Tool
+duckduckgo-search
+ddgs
+
+# Configuration & Environment
+pydantic-settings
+python-dotenv
+
+#Analyticals
+pandas
+numpy

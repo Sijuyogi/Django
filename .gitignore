@@ -1,0 +1,40 @@
+# Environment & Secrets
+# .env
+# *.env
+# .env.*
+# !.env.example
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Django Core & Databases
+*.sqlite3
+db.sqlite3-journal
+
+# Django Media & Static Files
+media/
+staticfiles/
+static_collected/
+
+# Streamlit Local State
+.streamlit/secrets.toml
+
+# IDE & OS Metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

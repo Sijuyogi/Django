@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posts</title>
-</head>
-<body>
+{% extends "apps/base.html" %}
+{% block title %}<title>Posts</title>{% endblock title%}
+{% block content %}
+    <h1> Latest Posts </h1>
     {% for post in posts %} 
         <p1>{{ post.Name }}</p1>
-    {% endfor %}
-</body>
-</html>
+        <p2>{{ post.Age }}</p2>
+    {% endfor %} 
+{% endblock content %}

@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
-</head>
-<body>
-    <h1> App Contactpage</h1> 
-</body>
-</html>
+{% extends "apps/base.html" %}
+{% block title %}
+    {% if title %}
+        <title>{{ title }}</title>
+    {% else %}
+        <title>Contacts</title>
+    {% endif %}
+{% endblock title%}
+{% block content %}
+    <h1> ContactPage </h1> 
+{% endblock content %}
